@@ -17,7 +17,7 @@ namespace TodoApi.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "{ \"color\": \"purple\" }";
         }
 
         // POST api/values
